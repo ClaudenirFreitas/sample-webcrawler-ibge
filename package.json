@@ -1,0 +1,32 @@
+{
+  "name": "sample-webcrawler-ibge",
+  "version": "1.0.0",
+  "description": "Sample webcrawler ibge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudenirFreitas/sample-webcrawler-ibge.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webcrawler",
+    "javascript",
+    "ibge",
+    "api"
+  ],
+  "author": "Claudenir Freitas <claudenirfreitas.cf@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudenirFreitas/sample-webcrawler-ibge/issues"
+  },
+  "homepage": "https://github.com/ClaudenirFreitas/sample-webcrawler-ibge#readme",
+  "dependencies": {
+    "boom": "^3.2.2",
+    "cheerio": "^0.20.0",
+    "hapi": "^13.4.1",
+    "request": "^2.72.0"
+  }
+}

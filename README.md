@@ -1,2 +1,2 @@
 # sample-webcrawler-ibge
-Example web crawler.
+Simple example web crawler using Hapi, Boom, Cheerio e Request.
