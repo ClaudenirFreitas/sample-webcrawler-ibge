@@ -49,6 +49,8 @@ server.route({
       if (error) {
         return reply(boom.badImplementation('Erro consultar ufs. Trace: ' + error)); 
       }           
+
+      console.log('recepcionando request UFs');
         
       const $ = cheerio.load(body),
         ufs = $("#menu_ufs li a"),
