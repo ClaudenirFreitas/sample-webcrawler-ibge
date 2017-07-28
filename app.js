@@ -10,6 +10,7 @@ const Hapi = require('hapi'),
 // server connection
 server.connection({ 
     host: 'localhost', 
+    port: 8080
 });
 
 // classes
